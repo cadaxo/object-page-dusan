@@ -1,0 +1,90 @@
+<mvc:View controllerName="cadaxo.appobject-page-dusan.controller.App" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns:m="sap.m" xmlns="sap.uxap" xmlns:layout="sap.ui.layout">
+	<m:App>
+		<m:pages>
+			<m:Page title="{i18n>title}">
+				<m:content>
+					<ObjectPageLayout id="objectPageLayout"
+						showTitleInHeaderContent="true"
+						enableLazyLoading="true"
+						showFooter="true"
+						useIconTabBar="true">
+						<headerTitle>
+							<ObjectPageHeader objectImageURI="./image/dusan.jpg"
+								  objectTitle="Dusan Sacha"
+								  objectImageShape="Circle"
+								  objectImageAlt="Dusan Sacha"
+								  objectSubtitle="UI5 Developer @ Cadaxo"
+								  isObjectIconAlwaysVisible="false"
+								  isObjectTitleAlwaysVisible="false"
+								  isObjectSubtitleAlwaysVisible="false" />
+						</headerTitle>
+						<headerContent>
+							<layout:VerticalLayout>
+								<m:Link text="+43 699 10 66 57 40"/>
+								<m:Link text="dusan.sacha@cadaxo.com"/>
+							</layout:VerticalLayout>
+						</headerContent>
+						<sections>
+							<ObjectPageSection id="aboutMe" title="About Me">
+								<subSections>
+									<ObjectPageSubSection id="aboutMeSS1" title="About Me">
+										<blocks>
+											<m:Text text="Hi! My name is Dusan I have been 
+											working at Cadaxo for 2 years. I work with SAP Cloud Technologies, I like football, traveling and reading stuff on web.
+											Feel free to contact me!"></m:Text>
+										</blocks>
+									</ObjectPageSubSection>
+									<ObjectPageSubSection id="aboutMeSS2" title="Contact">
+										<blocks>
+											<m:Link text="The preferable way to contact me is writing me an email." href="mailto:dusan.sacha@cadaxo.com"/>
+										</blocks>
+									</ObjectPageSubSection>
+									<ObjectPageSubSection id="aboutMeSS3" title="Social Networks">
+										<blocks>
+											<m:Text text="I am awesome!"></m:Text>
+										</blocks>
+									</ObjectPageSubSection>																	
+								</subSections>
+							</ObjectPageSection>
+							<ObjectPageSection id="education" title="Education" >
+								<subSections>
+									<ObjectPageSubSection id="educationSS1" title="">
+										<blocks>
+											<m:Text text="Yes! I am well educated!"></m:Text>
+										</blocks>
+									</ObjectPageSubSection>
+								</subSections>								
+							</ObjectPageSection>				
+							<ObjectPageSection id="whatIDo" title="What I Do" >
+								<subSections>
+									<ObjectPageSubSection id="whatIDoSS1" title="">
+										<blocks>
+											<m:Text text="Technologies I like:"></m:Text>
+										</blocks>
+									</ObjectPageSubSection>
+								</subSections>								
+							</ObjectPageSection>
+							<ObjectPageSection id="whatIDid" title="What I Did" >
+								<subSections>
+									<ObjectPageSubSection id="whatIDidSS1" title="">
+										<blocks>
+											<m:Text text="Projects I did:"></m:Text>
+										</blocks>
+									</ObjectPageSubSection>
+								</subSections>								
+							</ObjectPageSection>
+						</sections>
+						<footer>
+							<m:Bar>
+								<m:contentMiddle>
+									<m:Link text="Made by Cadaxo"/>	
+								</m:contentMiddle>
+							</m:Bar>							
+						</footer>
+					</ObjectPageLayout>
+				</m:content>
+			</m:Page>
+		</m:pages>
+	</m:App>
+</mvc:View>
