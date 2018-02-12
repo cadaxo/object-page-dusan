@@ -24,61 +24,127 @@
 								<m:Link text="+43 699 10 66 57 40"/>
 								<m:Link text="dusan.sacha@cadaxo.com"/>
 							</layout:VerticalLayout>
+							<layout:VerticalLayout>
+							</layout:VerticalLayout>
 						</headerContent>
 						<sections>
 							<ObjectPageSection id="aboutMe" title="About Me">
 								<subSections>
 									<ObjectPageSubSection id="aboutMeSS1" title="About Me">
 										<blocks>
-											<m:Text text="Hi! My name is Dusan I have been 
-											working at Cadaxo for 2 years. I work with SAP Cloud Technologies, I like football, traveling and reading stuff on web.
-											Feel free to contact me!"></m:Text>
+											<layout:VerticalLayout>
+												<m:Text text="Hi! My name is Dušan [ˈduʃan]. I work as an UI5 Developer at Cadaxo based in Vienna, Austria."></m:Text>
+												<m:Text text=" "/>
+												<m:Link text="Feel free to contact me!" href="mailto:dusan.sacha@cadaxo.com"></m:Link>
+											</layout:VerticalLayout>
 										</blocks>
 									</ObjectPageSubSection>
-									<ObjectPageSubSection id="aboutMeSS2" title="Contact">
+									<ObjectPageSubSection id="whatIDoSS2" title="What I do">
 										<blocks>
+											<layout:VerticalLayout>
+												<m:Text text="SAPUI5 Frontend and SAP Gateway Backend - OData Services - Consulting and Development"></m:Text>
+												<m:Text text=" "/>
+												<m:Text text="Installation, Extensibility, Customizing of SAP Fiori Apps + SAP Fiori Launchpad"></m:Text>
+												<m:Text text=" "/>
+												<m:Text text="Webinars, workshops, blogs about SAP Fiori related topics"></m:Text>
+											</layout:VerticalLayout>	
+										</blocks>
+									</ObjectPageSubSection>									
+									<!--ObjectPageSubSection id="aboutMeSS2" title="Social Networks">
+										<blocks>
+											<m:Image activeSrc="https://www.linkedin.com/in/dusansacha/" src="./image/linkedin.png" width="30px">
+											</m:Image>
 											<m:Link text="The preferable way to contact me is writing me an email." href="mailto:dusan.sacha@cadaxo.com"/>
 										</blocks>
-									</ObjectPageSubSection>
-									<ObjectPageSubSection id="aboutMeSS3" title="Social Networks">
+									</ObjectPageSubSection-->
+									<ObjectPageSubSection id="aboutMeSS3" title="After work">
 										<blocks>
-											<m:Text text="To Be Done"></m:Text>
+											<layout:VerticalLayout>
+												<m:Text text="Traveller"></m:Text>
+												<m:Text text=" "/>
+												<m:Text text="Languages Lover"></m:Text>
+												<m:Text text=" "/>
+												<m:Text text="Runner"></m:Text>
+												<m:Text text=" "/>
+												<m:Text text="Soccer Fan"></m:Text>
+												<m:Text text=" "/>
+												<m:Text text="Movies and TV Series"></m:Text>
+												<m:Text text=" "/>												
+											</layout:VerticalLayout>											
+											<!--html:ul>
+												<html:li></html:li>
+												<html:li></html:li>
+												<html:li></html:li>
+												<html:li></html:li>
+												<html:li></html:li>
+											</html:ul-->
 										</blocks>
 									</ObjectPageSubSection>																	
 								</subSections>
 							</ObjectPageSection>
 							<ObjectPageSection id="education" title="Education" >
 								<subSections>
-									<ObjectPageSubSection id="educationSS1" title="">
+									<ObjectPageSubSection id="langsSS1" title="Spoken Languages">
 										<blocks>
-											<m:Text text="Yes! I am well educated!"></m:Text>
+											<layout:VerticalLayout>
+												<m:Text text="Czech - Native"></m:Text>
+												<m:Text text=" "/>
+												<m:Text text="English - Working proficiency"></m:Text>
+												<m:Text text=" "/>
+												<m:Text text="German - Working proficiency"></m:Text>
+												<m:Text text=" "/>
+												<m:Text text="Spanish - Elementary knowledge"></m:Text>
+											</layout:VerticalLayout>
 										</blocks>
 									</ObjectPageSubSection>
+									<ObjectPageSubSection id="certsSS1" title="Certifications">
+										<blocks>
+											<layout:VerticalLayout>
+												<m:Text text="C_SAPXIMP_20 - SAP Fiori Rmplementation and Configuration"></m:Text>
+												<m:Text text=" "/>
+											</layout:VerticalLayout>
+										</blocks>
+									</ObjectPageSubSection>											
+									<ObjectPageSubSection id="educationSS1" title="University Degree">
+										<blocks>
+											<m:Text text="Masters at Applied Informatics - Masaryk University, Brno, Czech Republic"></m:Text>
+											<m:Text text=" "/>
+										</blocks>
+									</ObjectPageSubSection>									
 								</subSections>								
 							</ObjectPageSection>				
-							<ObjectPageSection id="whatIDo" title="What I Do" >
-								<subSections>
-									<ObjectPageSubSection id="whatIDoSS1" title="">
-										<blocks>
-											<m:Text text="Technologies I like:"></m:Text>
-										</blocks>
-									</ObjectPageSubSection>
-								</subSections>								
-							</ObjectPageSection>
-							<ObjectPageSection id="whatIDid" title="What I Did" >
+							<ObjectPageSection id="whatIDid" title="Finished Projects" >
 								<subSections>
 									<ObjectPageSubSection id="whatIDidSS1" title="">
 										<blocks>
-											<m:Text text="Projects I did:"></m:Text>
+											<m:Text text="I am working on it. Come back soon."></m:Text>
 										</blocks>
 									</ObjectPageSubSection>
 								</subSections>								
 							</ObjectPageSection>
+							<ObjectPageSection id="workshops" title="Workshops and webinars" >
+								<subSections>
+									<ObjectPageSubSection id="workshopsSS1" title="">
+										<blocks>
+											<m:Text text="I am working on it. Come back soon."></m:Text>
+										</blocks>
+									</ObjectPageSubSection>
+								</subSections>								
+							</ObjectPageSection>
+							<ObjectPageSection id="blog" title="Blog Posts" >
+								<subSections>
+									<ObjectPageSubSection id="blogSS1" title="">
+										<blocks>
+											<m:Text text="I am working on it. Come back soon."></m:Text>
+										</blocks>
+									</ObjectPageSubSection>
+								</subSections>								
+							</ObjectPageSection>							
 						</sections>
 						<footer>
 							<m:Bar>
 								<m:contentMiddle>
-									<m:Link text="Made by Cadaxo"/>	
+									<m:Link href="http://www.cadaxo.com" target="_blank" text="cadaxo.com"/>
 								</m:contentMiddle>
 							</m:Bar>							
 						</footer>
