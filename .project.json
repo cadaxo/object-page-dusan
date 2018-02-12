@@ -6,8 +6,8 @@
   "build": {
     "targetFolder": "dist",
     "sourceFolder": "webapp",
-    "buildRequired": true,
-    "lastBuildDateTime": "Mon, 06 Nov 2017 14:27:08 GMT"
+    "buildRequired": false,
+    "lastBuildDateTime": "Mon, 12 Feb 2018 15:17:58 GMT"
   },
   "generation": [
     {
@@ -43,6 +43,6 @@
   "hcpdeploy": {
     "account": "a17cc5c5c",
     "name": "objectpagedusan",
-    "lastVersionWeTriedToDeploy": "1.0.2"
+    "lastVersionWeTriedToDeploy": "1.0.6"
   }
 }

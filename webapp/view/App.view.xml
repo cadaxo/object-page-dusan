@@ -1,4 +1,4 @@
-<mvc:View controllerName="cadaxo.appobject-page-dusan.controller.App" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+<mvc:View controllerName="cadaxo.appobject-page-dusan.controller.App" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns:svg="http://www.w3.org/2000/svg"
 	displayBlock="true" xmlns:m="sap.m" xmlns="sap.uxap" xmlns:layout="sap.ui.layout">
 	<m:App>
 		<m:pages>
@@ -113,20 +113,27 @@
 									</ObjectPageSubSection>									
 								</subSections>								
 							</ObjectPageSection>				
-							<ObjectPageSection id="whatIDid" title="Finished Projects" >
-								<subSections>
-									<ObjectPageSubSection id="whatIDidSS1" title="">
-										<blocks>
-											<m:Text text="I am working on it. Come back soon."></m:Text>
-										</blocks>
-									</ObjectPageSubSection>
-								</subSections>								
-							</ObjectPageSection>
 							<ObjectPageSection id="workshops" title="Workshops and webinars" >
 								<subSections>
-									<ObjectPageSubSection id="workshopsSS1" title="">
+									<ObjectPageSubSection id="workshopsSS1" title="Workshops and webinars">
 										<blocks>
-											<m:Text text="I am working on it. Come back soon."></m:Text>
+											<m:Text text="I can offer workshops and presentations about SAP Fiori related topics"></m:Text>
+										</blocks>
+									</ObjectPageSubSection>
+									<ObjectPageSubSection id="workshopsSS2" title="Cadaxo SAPUI5 / Fiori Workshop">
+										<blocks>
+											<m:Link href="http://www.cadaxo.com/beratung/workshops/sapui5-fiori-workshops/" target="_blank" text="More info here (DE)"></m:Link>
+										</blocks>
+									</ObjectPageSubSection>	
+									<ObjectPageSubSection id="workshopsSS3" title="My last webinars">
+										<blocks>
+											<layout:VerticalLayout>
+												<m:Text text="I participated as speaker at following webinars (streamed online workshop):"></m:Text>
+												<m:Text text=" "></m:Text>
+												<m:Link href="http://www.cadaxo.com/high-class-development/webinar-sap-gateway/" target="_blank" text="SAP Gateway (DE)"></m:Link>
+												<m:Text text=" "></m:Text>
+												<m:Link href="http://www.cadaxo.com/uncategorized/webinar-abap-entwicklung-eclipse-sap-web-ide-einfuehrung/" target="_blank" text="SAP Web IDE Introduction (DE)"></m:Link>	
+											</layout:VerticalLayout>
 										</blocks>
 									</ObjectPageSubSection>
 								</subSections>								
@@ -135,7 +142,13 @@
 								<subSections>
 									<ObjectPageSubSection id="blogSS1" title="">
 										<blocks>
-											<m:Text text="I am working on it. Come back soon."></m:Text>
+											<layout:VerticalLayout>
+												<m:Text text="This is what I wrote:"></m:Text>
+												<m:Text text=" "></m:Text>
+												<m:Link href="http://www.cadaxo.com/sql-cockpit/7-reasons-why-you-should-use-cadaxo-sql-cockpit/" target="_blank" text="7 Reasons Why You Should Use Cadaxo SQL Cockpit"></m:Link>
+												<m:Text text=" "></m:Text>
+												<m:Link href="http://www.cadaxo.com/user-experience/sap-overview-page-example-list-card/" target="_blank" text="SAP Overview Page – Example – List Card"></m:Link>
+											</layout:VerticalLayout>												
 										</blocks>
 									</ObjectPageSubSection>
 								</subSections>								
@@ -144,7 +157,61 @@
 						<footer>
 							<m:Bar>
 								<m:contentMiddle>
-									<m:Link href="http://www.cadaxo.com" target="_blank" text="cadaxo.com"/>
+									<m:Image
+										id="logo-linkedin"
+										src="./image/linkedin.png"
+										width="20px"
+										height="20px"
+										decorative="true"
+										alt="Linkedin Logo"
+										mode="Image"
+										backgroundSize="cover"
+										backgroundPosition="initial"
+										backgroundRepeat="no-repeat"
+										press="gotoLinkedin">
+									</m:Image>
+									<m:Text text="|"></m:Text>
+									<m:Image
+										id="logo-cadaxo"
+										src="./image/cadaxo.png"
+										width="20px"
+										height="20px"
+										decorative="true"
+										alt="Cadaxo Logo"
+										mode="Image"
+										backgroundSize="cover"
+										backgroundPosition="initial"
+										backgroundRepeat="no-repeat"
+										press="gotoCadaxo">
+									</m:Image>
+									<m:Text text="|"></m:Text>
+									<m:Image
+										id="logo-twitter"
+										src="./image/twitter.png"
+										width="20px"
+										height="20px"
+										decorative="true"
+										alt="Twitter Logo"
+										mode="Image"
+										backgroundSize="cover"
+										backgroundPosition="initial"
+										backgroundRepeat="no-repeat"
+										press="gotoTwitter">
+									</m:Image>	
+									<m:Text text="|"></m:Text>
+									<m:Image
+										id="logo-github"
+										src="./image/github.png"
+										width="20px"
+										height="20px"
+										decorative="true"
+										alt="Github Logo"
+										mode="Image"
+										backgroundSize="cover"
+										backgroundPosition="initial"
+										backgroundRepeat="no-repeat"
+										press="gotoGithub">
+									</m:Image>									
 								</m:contentMiddle>
 							</m:Bar>							
 						</footer>
