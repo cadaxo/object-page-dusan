@@ -50,13 +50,6 @@
 											</layout:VerticalLayout>	
 										</blocks>
 									</ObjectPageSubSection>									
-									<!--ObjectPageSubSection id="aboutMeSS2" title="Social Networks">
-										<blocks>
-											<m:Image activeSrc="https://www.linkedin.com/in/dusansacha/" src="./image/linkedin.png" width="30px">
-											</m:Image>
-											<m:Link text="The preferable way to contact me is writing me an email." href="mailto:dusan.sacha@cadaxo.com"/>
-										</blocks>
-									</ObjectPageSubSection-->
 									<ObjectPageSubSection id="aboutMeSS3" title="After work">
 										<blocks>
 											<layout:VerticalLayout>
@@ -71,13 +64,6 @@
 												<m:Text text="Movies and TV Series"></m:Text>
 												<m:Text text=" "/>												
 											</layout:VerticalLayout>											
-											<!--html:ul>
-												<html:li></html:li>
-												<html:li></html:li>
-												<html:li></html:li>
-												<html:li></html:li>
-												<html:li></html:li>
-											</html:ul-->
 										</blocks>
 									</ObjectPageSubSection>																	
 								</subSections>
@@ -112,7 +98,7 @@
 										</blocks>
 									</ObjectPageSubSection>									
 								</subSections>								
-							</ObjectPageSection>				
+							</ObjectPageSection>
 							<ObjectPageSection id="workshops" title="Workshops and webinars" >
 								<subSections>
 									<ObjectPageSubSection id="workshopsSS1" title="Workshops and webinars">
@@ -151,8 +137,8 @@
 											</layout:VerticalLayout>												
 										</blocks>
 									</ObjectPageSubSection>
-								</subSections>								
-							</ObjectPageSection>							
+								</subSections>		
+							</ObjectPageSection>
 						</sections>
 						<footer>
 							<m:Bar>
